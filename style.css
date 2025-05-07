@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.section {
+  padding: 80px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.image-section.visible img {
+  opacity: 1;
+}
+
+.caption {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+h1, h2 {
+  color: #ffffff;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
